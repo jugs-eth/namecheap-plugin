@@ -1,0 +1,20 @@
+{
+  "name": "namecheap",
+  "displayName": "Namecheap",
+  "description": "Domain management and DNS operations via Namecheap API",
+  "version": "1.0.0",
+  "author": "lobstash",
+  "envVars": [
+    {
+      "name": "NAMECHEAP_API_KEY",
+      "description": "API key for Namecheap domain management",
+      "required": true
+    },
+    {
+      "name": "NAMECHEAP_USER",
+      "description": "Namecheap username for API authentication",
+      "required": true
+    }
+  ],
+  "postInstall": "npm install"
+}
